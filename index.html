@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radoniee</title>
+    <!-- for css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- cdn for font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- for media-query -->
+    <link rel="stylesheet" href="media-query.css" />
+    <!-- cdn for swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar-outer">
+      <div class="navbar">
+        <div class="logo">
+          <img src="./assetts/logo.png" alt="Logo" />
+        </div>
+
+        <ul class="nav-list"></ul>
+        <div class="mobile-menu">
+          <div class="close-icon">
+            <i class="fas fa-times"></i>
+          </div>
+          <ul class="mobile-nav-list">
+            <li class="dropdown">
+              <a href="#">BESTILL MÅLING <i class="fas fa-chevron-down"></i></a>
+              <ul>
+                <li><a href="#">Option 1</a></li>
+                <li><a href="#">Option 2</a></li>
+                <li><a href="#">Option 3</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#">TILTAK <i class="fas fa-chevron-down"></i></a>
+              <ul>
+                <li><a href="#">Option A</a></li>
+                <li><a href="#">Option B</a></li>
+                <li><a href="#">Option C</a></li>
+              </ul>
+            </li>
+            <li><a href="#">OM RADON</a></li>
+            <li><a href="#">OM OSS</a></li>
+            <li><a href="#">KONTAKT OSS</a></li>
+          </ul>
+        </div>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </div>
+    <!-- contents -->
+    <div class="container">
+      <!-- section left -->
+      <div class="section left">
+        <!-- ---------------------main-section ------------------------->
+        <div class="main-title">
+          <h1 class="main-title-header">
+            Radon - den usynlige fienden<br />
+            vi finner, og tar kontroll på!
+          </h1>
+          <p class="main-title-desc">
+            — Vi er en nasjonal leverandør av radontiltak
+          </p>
+          <!-- Swiper for boxes -->
+          <div class="main-swiper main-mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="box">
+                  <div>
+                    <img class="icon" src="./assetts//icon 1.png" />
+                  </div>
+                  <h3>Privat</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box">
+                  <div>
+                    <img class="icon" src="./assetts//icon 2.png" />
+                  </div>
+                  <h3>Leietaker</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box">
+                  <div>
+                    <img class="icon" src="./assetts//icon 3.png" />
+                  </div>
+                  <h3>Borettslag</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box">
+                  <div>
+                    <img class="icon" src="./assetts//icon 4.png" />
+                  </div>
+                  <h3>Offentlig bygg</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box">
+                  <div>
+                    <img class="icon" src="./assetts//icon 5.png" />
+                  </div>
+                  <h3>Næringsbygg</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Swiper for main slider -->
+        <div>
+          <h3 class="title">Hva kundene våre sier</h3>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slider-card">
+                <p class="slider-desc">
+                  Vi henvendte oss til Radoni AS for utbedringstiltak av for noe
+                  høy radonverdi i u.etg. Vi fikk god veiledning og forklaring.
+                  Løsningen ble et utvendig montert utsug. Boringen gjennom 35
+                  cm tykk betongmur og monteringsarbeidet skjedde effektivt,
+                  presist, og pent utført. Løsningen var meget
+                  tilfredsstillende, og radonverdien sank umiddelbart til
+                  nærmest null verdi. Hele prosessen fra forespørsel, til ferdig
+                  montert var profesjonell og pålitelig og vi kan anbefale
+                  firmaet på det beste.
+                </p>
+                <div class="user-info">
+                  <div class="user-image">
+                    <img src="./assetts/Profile.png" alt="User Image" />
+                  </div>
+                  <div class="user-details">
+                    <h3>Eng Stan</h3>
+                    <p>Daglig leder, Firma AS</p>
+                  </div>
+                  <div class="user-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider-card">
+                <p class="slider-desc">
+                  Vi henvendte oss til Radoni AS for utbedringstiltak av for noe
+                  høy radonverdi i u.etg. Vi fikk god veiledning og forklaring.
+                  Løsningen ble et utvendig montert utsug. Boringen gjennom 35
+                  cm tykk betongmur og monteringsarbeidet skjedde effektivt,
+                  presist, og pent utført. Løsningen var meget
+                  tilfredsstillende, og radonverdien sank umiddelbart til
+                  nærmest null verdi. Hele prosessen fra forespørsel, til ferdig
+                  montert var profesjonell og pålitelig og vi kan anbefale
+                  firmaet på det beste.
+                </p>
+                <div class="user-info">
+                  <div class="user-image">
+                    <img src="./assetts/Profile.png" alt="User Image" />
+                  </div>
+                  <div class="user-details">
+                    <h3>Eng Stan</h3>
+                    <p>Daglig leder, Firma AS</p>
+                  </div>
+                  <div class="user-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider-card">
+                <p class="slider-desc">
+                  Vi henvendte oss til Radoni AS for utbedringstiltak av for noe
+                  høy radonverdi i u.etg. Vi fikk god veiledning og forklaring.
+                  Løsningen ble et utvendig montert utsug. Boringen gjennom 35
+                  cm tykk betongmur og monteringsarbeidet skjedde effektivt,
+                  presist, og pent utført. Løsningen var meget
+                  tilfredsstillende, og radonverdien sank umiddelbart til
+                  nærmest null verdi. Hele prosessen fra forespørsel, til ferdig
+                  montert var profesjonell og pålitelig og vi kan anbefale
+                  firmaet på det beste.
+                </p>
+                <div class="user-info">
+                  <div class="user-image">
+                    <img src="./assetts/Profile.png" alt="User Image" />
+                  </div>
+                  <div class="user-details">
+                    <h3>Eng Stan</h3>
+                    <p>Daglig leder, Firma AS</p>
+                  </div>
+                  <div class="user-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider-card">
+                <p class="slider-desc">
+                  Vi henvendte oss til Radoni AS for utbedringstiltak av for noe
+                  høy radonverdi i u.etg. Vi fikk god veiledning og forklaring.
+                  Løsningen ble et utvendig montert utsug. Boringen gjennom 35
+                  cm tykk betongmur og monteringsarbeidet skjedde effektivt,
+                  presist, og pent utført. Løsningen var meget
+                  tilfredsstillende, og radonverdien sank umiddelbart til
+                  nærmest null verdi. Hele prosessen fra forespørsel, til ferdig
+                  montert var profesjonell og pålitelig og vi kan anbefale
+                  firmaet på det beste.
+                </p>
+                <div class="user-info">
+                  <div class="user-image">
+                    <img src="./assetts/Profile.png" alt="User Image" />
+                  </div>
+                  <div class="user-details">
+                    <h3>Eng Stan</h3>
+                    <p>Daglig leder, Firma AS</p>
+                  </div>
+                  <div class="user-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider-card">
+                <p class="slider-desc">
+                  Vi henvendte oss til Radoni AS for utbedringstiltak av for noe
+                  høy radonverdi i u.etg. Vi fikk god veiledning og forklaring.
+                  Løsningen ble et utvendig montert utsug. Boringen gjennom 35
+                  cm tykk betongmur og monteringsarbeidet skjedde effektivt,
+                  presist, og pent utført. Løsningen var meget
+                  tilfredsstillende, og radonverdien sank umiddelbart til
+                  nærmest null verdi. Hele prosessen fra forespørsel, til ferdig
+                  montert var profesjonell og pålitelig og vi kan anbefale
+                  firmaet på det beste.
+                </p>
+                <div class="user-info">
+                  <div class="user-image">
+                    <img src="./assetts/Profile.png" alt="User Image" />
+                  </div>
+                  <div class="user-details">
+                    <h3>Eng Stan</h3>
+                    <p>Daglig leder, Firma AS</p>
+                  </div>
+                  <div class="user-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- first card section -->
+        <div class="section-card">
+          <div class="card-image">
+            <img class="card-img" src="./assetts/card-image.png" />
+          </div>
+          <div class="card-content">
+            <h2>Gjør hjemmet ditt trygt</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#" class="read-more">LES MER<span>&rarr;</span></a>
+          </div>
+        </div>
+        <!-- second section card -->
+        <div class="second-section-card">
+          <div class="second-card-image">
+            <img class="second-card-img" src="./assetts/card-image.png" />
+          </div>
+          <div class="second-card-content">
+            <h2>Tiltak mot radon</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#" class="read-more">LES MER<span>&rarr;</span></a>
+          </div>
+        </div>
+
+        <!-- FAQS Content -->
+        <div>
+          <h3 class="title">Ofte stilte spørsmål om radon</h3>
+        </div>
+        <div class="faq">
+          <div class="question">
+            <span>Lorem ipsum dolor sit amet?</span>
+            <span class="plus-icon">+</span>
+          </div>
+          <div class="answer">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question">
+            <span>Lorem ipsum dolor sit amet?</span>
+            <span class="plus-icon">+</span>
+          </div>
+          <div class="answer">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question">
+            <span>Lorem ipsum dolor sit amet?</span>
+            <span class="plus-icon">+</span>
+          </div>
+          <div class="answer">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question">
+            <span>Lorem ipsum dolor sit amet?</span>
+            <span class="plus-icon">+</span>
+          </div>
+          <div class="answer">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </div>
+        </div>
+
+        <!-- contactus -->
+        <div>
+          <h3 class="title">Kontaktinformasjon</h3>
+        </div>
+        <div class="contact-info">
+          <div class="email">
+            <img src="./assetts/email.png" alt="Image" class="bordered-image" />
+
+            <a href="mailto:example@example.com">example@example.com</a>
+          </div>
+          <div class="phone">
+            <img src="./assetts/phone.png" alt="Image" class="bordered-image" />
+            <a href="tel:+1234567890">123-456-7890</a>
+          </div>
+        </div>
+        <div class="form-container">
+          <div class="form-left">
+            <input type="text" placeholder="Navn" />
+            <input type="email" placeholder="E-post" />
+            <input type="tel" placeholder="Telefon" />
+            <button>Send</button>
+          </div>
+          <div class="form-right">
+            <textarea rows="7" placeholder="Hva gjelder det?"></textarea>
+          </div>
+        </div>
+        <!-- footer -->
+        <footer>
+          <div class="footer-data">
+            <img src="./assetts/logo.png" alt="Image" />
+            <p class="footer-desc">
+              RADONi AS spesialiserer seg innen radonmåling og tiltak i
+              <br />eksisterende bygninger med over 10 års erfaring. Vi har<br />
+              kompetanse innen alle kundegrupper. Hos oss vil du vil få en god
+              <br />opplevelse gjennom hele prosessen med dedikerte fagpersoner.
+            </p>
+          </div>
+          <div class="Copyright-container left-width">
+            <p class="CopyRight-text">
+              Copyright @ 2023 Radoni AS - Utviklet av Marketin Webbyrå
+            </p>
+          </div>
+        </footer>
+      </div>
+      <!-- gap -->
+      <div class="gap"></div>
+      <!-- section right -->
+      <div class="section right">
+        <!-- main header -->
+        <div class="title-container">
+          <p>
+            Kontakt oss for en <br />kostnadsfri rådgivning
+            <i class="fas fa-arrow-right"></i>
+          </p>
+        </div>
+        <!-- contents -->
+        <div class="content-container">
+          <h2>Radonmåling</h2>
+          <p class="right-title">
+            Vi følger måleprosedyren fra Direktoratet for stråling og
+            atomsikkerhet, og rådgir deg for videre tiltak om dette trengs.
+          </p>
+          <p class="right-title">
+            Start med kostnadsfri rådgivning
+            <i class="fas fa-arrow-right"></i>
+          </p>
+        </div>
+        <div class="content-container">
+          <h2>Radonmåling</h2>
+          <p class="right-title">
+            Vi følger måleprosedyren fra Direktoratet for stråling og
+            atomsikkerhet, og rådgir deg for videre tiltak om dette trengs.
+          </p>
+          <p class="right-title">
+            Start med kostnadsfri rådgivning
+            <i class="fas fa-arrow-right"></i>
+          </p>
+        </div>
+        <div class="content-container">
+          <h2>Radonmåling</h2>
+          <p class="right-title">
+            Vi følger måleprosedyren fra Direktoratet for stråling og
+            atomsikkerhet, og rådgir deg for videre tiltak om dette trengs.
+          </p>
+          <p class="right-title">
+            Start med kostnadsfri rådgivning
+            <i class="fas fa-arrow-right"></i>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- script for navbar -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const mobileMenu = document.querySelector(".mobile-menu");
+        const closeIcon = document.querySelector(".close-icon");
+
+        menuToggle.addEventListener("click", function () {
+          mobileMenu.style.display = "flex";
+        });
+
+        closeIcon.addEventListener("click", function () {
+          mobileMenu.style.display = "none";
+        });
+      });
+    </script>
+    <!-- js cdn for swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize slider Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+    <!-- javascript for faq -->
+    <script>
+      const faqs = document.querySelectorAll(".faq");
+
+      faqs.forEach((faq) => {
+        const icon = faq.querySelector(".plus-icon");
+
+        faq.addEventListener("click", () => {
+          faq.classList.toggle("active");
+          if (faq.classList.contains("active")) {
+            icon.textContent = "-";
+          } else {
+            icon.textContent = "+";
+          }
+        });
+      });
+    </script>
+
+    <!-- Initialize box Swiper -->
+    <script>
+      var swiper = new Swiper(".main-mySwiper", {
+        slidesPerView: 3, // Default setting
+        spaceBetween: 10,
+        pagination: {
+          el: ".main-swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          100: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          400: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          600: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
+          850: {
+            slidesPerView: 5,
+            spaceBetween: 10,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
